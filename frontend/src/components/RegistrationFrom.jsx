@@ -32,7 +32,7 @@ const RegistrationForm = () => {
       const response = await axios.post('/api/applicants', formData);
       setMessage('Application submitted successfully! We will review your application and get back to you soon.');
       
-      // Reset form after successful submission
+      
       setFormData({
         name: '',
         email: '',

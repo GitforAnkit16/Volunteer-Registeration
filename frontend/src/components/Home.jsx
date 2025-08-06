@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home">
-      {/* Hero Section */}
+     
       <div className="hero-section">
         <div className="hero-content">
           <h1>Welcome to VolunteerHub</h1>
@@ -20,7 +20,7 @@ const Home = () => {
         </div>
       </div>
       
-      {/* Features Section */}
+   
       <div className="features-section">
         <div className="container">
           <h2>Why Join Us?</h2>
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Call to Action Section */}
+      
       <div className="cta-section">
         <div className="container">
           <div className="cta-content">
